@@ -1,75 +1,66 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title></title>
+<title>Trang chu</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 200;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 100px;
+  background-color: #111;
+  overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  margin-left: 300px;
+  padding-left: 20px;
+}
+</style>
 </head>
 <body>
-	<form>
-	<form action="action_page.php">
-		<fieldset>
-		<legend> Personal information:</legend>
-		<table>
-			<tr>
-				<td>Ho ten:</td>
-				<td>
-					<input type="text" name="Ho ten">
-				</td>
-			</tr>
-			<tr>
-				<td>Gioi tinh:</td>
-				<td>
-					<input type="radio"name="Gioi tinh"value="Nam">Nam
-					<input type="radio" name="Gioi tinh"value="Nu">Nu
-					<input type="radio" name="Gioi tinh"value="Khac">Khac
-				</td>
-			</tr>
-			<tr>
-				<td valign="top">So thich:</td>
-				<td>
-					<input type="checkbox" name="Nghe nhac"value="yes">Nghe nhac
-					<br>
-					<input type="checkbox" name="Xem phim"value="yes">Xem phim
-					<br>
-					<input type="checkbox" name="Doc tieu thuyet"value="yes">Doc tieu thuyet
-					<br>
-					<input type="checkbox" name="Choi game"value="yes">Choi game
-				</td>
-			<tr>
-				<td>Ma so:</td>
-				<td>
-					<input type="text" name="Ma so">
-				</td>
-			</tr>
-			<tr>
-				<td>Lop:</td>
-				<td>
-					<input type="text" name="Lop">
-				</td>
-			</tr>
-			<tr>
-				<td>Bo mon:</td>
-				<td>
-					<select>
-						<option value="BMCN Hoa học">BMCN Hoa hoc</option>
-						<option value="BM Tu dong hoa">BM Tu dong hoa</option>
-						<option value="BMCN QL Cong nghiep">BMCN QL Cong nghiep</option>
-					</select>
-				</td>
-			</tr>
-			<tr>
-				<td>Khoa:</td>
-				<td>
-					<input type="text" name="Khoa">
-				</td>
-			</tr>
-		</table>
-	</fieldset>
-		<b><i><p>Thong tin khac:</p></b></i>
-		<textarea name="Thong tin khac" rows="10" cols="30">Hello I Love U
-		</textarea>	
-		<br>
-		<input type="submit"name="submit">
-		<input type="reset">
-	</form>
+
+<div class="sidenav">
+  <a href="https://hankieu165.github.io/ditreroi/">Trang chủ</a>
+  <a href="https://hankieu165.github.io/ditreroi/nhapxuathang.html">Nhập xuất hàng</a>
+  <a href="https://hankieu165.github.io/ditreroi/thingspeak.html">Thống kê</a>
+</div>
+
+<div class="content">
+  <h2>Trình bày nội dung trang chủ</h2>
+  <p>Trình bày tổng thể về nhóm và đề tài</p>
+</div>
+
 </body>
 </html>
